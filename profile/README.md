@@ -26,14 +26,18 @@ NiDE.GG is a gaming community with a focus on **Counter-Strike: Source** and **Z
 
 Expect SourcePawn plugins, C++ extensions, Python tools, experiments, and the occasional fix for a problem only a game server admin would understand.
 
-## 🧰 Loadout
+## ⭐ Community favorites
 
-| Project | What it does |
-| :-- | :-- |
-| [Zombie:Reloaded](https://github.com/srcdslab/sm-plugin-zombiereloaded) | Zombie gameplay framework for SourceMod. |
-| [MapChooser Extended](https://github.com/srcdslab/sm-plugin-mapchooser-extended) | More control over map nominations and votes. |
-| [Torchlight](https://github.com/srcdslab/torchlight) | A command-rich bot for Source engine games. |
-| [AutoFastDL](https://github.com/srcdslab/autofastdl) | Automates the FastDL workflow for Steam games. |
+The most starred projects in our organization:
+
+| Project | Loadout | Stars |
+| :-- | :-- | --: |
+| [Lilac](https://github.com/srcdslab/sm-plugin-lilac) | Anti-cheat for Source games. | [![GitHub stars](https://img.shields.io/github/stars/srcdslab/sm-plugin-lilac?style=flat-square)](https://github.com/srcdslab/sm-plugin-lilac/stargazers) |
+| [SMAC](https://github.com/srcdslab/sm-plugin-SMAC) | SourceMod anti-cheat. | [![GitHub stars](https://img.shields.io/github/stars/srcdslab/sm-plugin-SMAC?style=flat-square)](https://github.com/srcdslab/sm-plugin-SMAC/stargazers) |
+| [Zombie:Reloaded](https://github.com/srcdslab/sm-plugin-zombiereloaded) | Zombie gameplay framework for SourceMod. | [![GitHub stars](https://img.shields.io/github/stars/srcdslab/sm-plugin-zombiereloaded?style=flat-square)](https://github.com/srcdslab/sm-plugin-zombiereloaded/stargazers) |
+| [Stripper](https://github.com/srcdslab/sm-plugin-stripper) | SourcePawn implementation of Stripper:Source. | [![GitHub stars](https://img.shields.io/github/stars/srcdslab/sm-plugin-stripper?style=flat-square)](https://github.com/srcdslab/sm-plugin-stripper/stargazers) |
+
+These projects are forks; their original authors and upstream work are credited in each repository. The star badges update automatically.
 
 **Looking for something else?** Browse [all repositories](https://github.com/orgs/srcdslab/repositories).
 
@@ -52,4 +56,3 @@ A number of projects here are forks. We credit upstream authors in their reposit
 *See you on the server.*
 
 </div>
-
