@@ -42,8 +42,8 @@ body:
     attributes:
       label: Game
       options:
-        - Counter-Strike: Source
-        - Counter-Strike: Global Offensive
+        - "Counter-Strike: Source"
+        - "Counter-Strike: Global Offensive"
         - Counter-Strike 2
         - Other Source game
         - Not applicable
