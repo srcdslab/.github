@@ -1,0 +1,82 @@
+name: Bug report
+description: Something is broken, crashes the server, or doesn't behave as documented.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!
+        **Security issue or server exploit?** Do not open a public issue: use the "Report a vulnerability" button in the Security tab instead.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happens, and what did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Map, commands, player actions, config values... Anything we need to trigger the bug.
+      placeholder: |
+        1. Load map ze_example
+        2. Run `sm_example 1`
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Project version
+      description: Release tag or commit hash (for plugins, the version shown by `sm plugins list`).
+      placeholder: "1.2.3 / latest / abc1234"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      options:
+        - Counter-Strike: Source
+        - Counter-Strike: Global Offensive
+        - Counter-Strike 2
+        - Other Source game
+        - Not applicable
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Server OS
+      options:
+        - Linux
+        - Windows
+        - Not applicable
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: For SourceMod plugins and extensions, paste the output of `sm version`, `meta version` and `sm exts list`.
+      render: text
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and errors
+      description: Relevant lines from `addons/sourcemod/logs/errors_*.log`, the console, or a crash report link (accelerator).
+      render: text
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Other plugins that might interact, screenshots, recent changes on the server...
