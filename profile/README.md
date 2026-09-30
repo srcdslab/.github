@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ NiDE.GG × SRCDSLab
+# SRCDSLab
 
 ### SOURCE ENGINE MODDING // BUILT BY THE COMMUNITY
 
